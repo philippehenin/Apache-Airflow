@@ -1,3 +1,13 @@
 #python 3 bug reserved word v1.10  wait release 1.10.1 or 2.0
 
 python2 -m pip install --user --upgrade  apache-airflow
+
+airflow initdb
+
+airflow webserver -p 1111
+
+airflow scheduler
+
+python2 -m pip install --user --upgrade Flask-WTF
+python2 -m pip install --user --upgrade  airflow[all]
+# now running....
