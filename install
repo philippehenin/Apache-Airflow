@@ -11,3 +11,6 @@ airflow scheduler
 python2 -m pip install --user --upgrade Flask-WTF
 python2 -m pip install --user --upgrade  airflow[all]
 # now running....
+
+
+EXPORT AIRFLOW__CORE__FERNET_KEY = your_fernet_key
